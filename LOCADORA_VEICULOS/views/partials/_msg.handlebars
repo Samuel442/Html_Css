@@ -1,0 +1,9 @@
+<!--Partial dos erros (não esquecer de colocar no laouyt/main)-->
+
+{{#if success_msg}}   <!--Caso tenha sucesso (a variável success_msg vem do registro global)-->
+    <div class="alert alert-success">{{success_msg}}</div>
+{{/if}}
+
+{{#if error_msg}}    <!--Caso ocorra um erro -->
+    <div class="alert alert-danger">{{error_msg}}</div>
+{{/if}}
